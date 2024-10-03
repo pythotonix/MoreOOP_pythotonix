@@ -9,4 +9,12 @@ public class Knight extends Character {
     public void kick(Character c) {
         Helper.kick(this, c);
     }
+
+    @Override
+    public String toString() {
+        return "Knight{" +
+                "hp=" + getHp() +
+                ", power=" + getPower() +
+                '}';
+    }
 }

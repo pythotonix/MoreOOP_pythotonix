@@ -9,4 +9,12 @@ public class King extends Character {
     public void kick(Character c) {
         Helper.kick(this, c);
     }
+
+    @Override
+    public String toString() {
+        return "King{" +
+                "hp=" + getHp() +
+                ", power=" + getPower() +
+                '}';
+    }
 }
